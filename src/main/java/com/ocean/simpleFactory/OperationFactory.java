@@ -2,6 +2,7 @@ package com.ocean.simpleFactory;
 
 /**
  * 计算方法工厂类
+ * 简单工厂：旨在解决对象的创建问题
  */
 public class OperationFactory {
     /**
