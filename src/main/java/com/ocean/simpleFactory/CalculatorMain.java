@@ -3,7 +3,7 @@ package com.ocean.simpleFactory;
 import java.util.Scanner;
 
 /**
- * 大话设计模式 计算器 简单工厂实现
+ * 大话设计模式 计算器 简单工厂模式实现
  */
 public class CalculatorMain {
     public static void main(String[] args) {

@@ -11,7 +11,7 @@ public class OperationFactory {
     public static Operation createOperation(String symbol){
         Operation operation = null;
         // 简单工厂的好处是 利用面向对象封装特性，使每个计算方式得到复用，修改其中任意算法，不影响其他算法
-        // 不过这里是不是有坑 每次都要修改工厂类
+        // TODO 不过这里是不是有坑 每次都要修改工厂类导致重新部署 移步策略模式寻求解决方案
         if("+".equals(symbol)){
             operation = new OperationAdd();
         }else if ("-".equals(symbol)){
