@@ -1,4 +1,4 @@
-package com.ocean.strategy;
+package com.ocean.strategy.instance;
 
 /**
  * 正常扣费

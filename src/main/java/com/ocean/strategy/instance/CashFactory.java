@@ -1,4 +1,4 @@
-package com.ocean.strategy;
+package com.ocean.strategy.instance;
 
 /**
  * 工厂模式

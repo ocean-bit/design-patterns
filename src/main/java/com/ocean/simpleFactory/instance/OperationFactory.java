@@ -1,4 +1,4 @@
-package com.ocean.simpleFactory;
+package com.ocean.simpleFactory.instance;
 
 /**
  * 计算方法工厂类

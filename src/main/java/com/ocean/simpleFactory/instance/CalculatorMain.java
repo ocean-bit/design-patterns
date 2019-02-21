@@ -1,4 +1,4 @@
-package com.ocean.simpleFactory;
+package com.ocean.simpleFactory.instance;
 
 import java.util.Scanner;
 

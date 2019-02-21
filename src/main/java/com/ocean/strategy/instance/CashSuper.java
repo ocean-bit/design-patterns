@@ -1,4 +1,4 @@
-package com.ocean.strategy;
+package com.ocean.strategy.instance;
 
 /**
  * 现金收费抽象父类

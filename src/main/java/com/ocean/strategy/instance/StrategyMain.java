@@ -1,4 +1,4 @@
-package com.ocean.strategy;
+package com.ocean.strategy.instance;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class StrategyMain {
         System.out.println("选择折扣类型：" + Arrays.toString(CashSuper.CashType.values()));
         CashSuper.CashType cashType = CashSuper.CashType.getById(scanner.nextInt());
 
-        // 纯简单工厂实现 假设需求不断增加 会不断修改工厂类
+        // 纯简单工厂实现 假设需求不断增加 会不断修改工厂类 并且客户端需要认识工厂类和算法父类
         CashSuper cashSuper = CashFactory.createCashAccept(cashType);
         System.out.println("纯简单工厂模式计算结果：" + cashSuper.acceptCash(total));
 
@@ -33,7 +33,7 @@ public class StrategyMain {
         assert cashContext != null;
         System.out.println("纯策略模式计算结果：" + cashContext.getResult(total));
 
-        // 简单工厂与策略结合 通过context的getResult方法让具体算法与客户端进行隔离
+        // 简单工厂与策略结合 通过context的getResult方法让算法与客户端进行彻底隔离
         // 策略模式与简单工厂模式的区别在于 简单工厂需要认识两个类CashSuper CashFactory 而 策略模式只需要认识CashContext 与具体算法耦合降低
         CashContext context = new CashContext(cashType);
         System.out.println("简单工厂与策略结合计算结果：" + context.getResult(total));

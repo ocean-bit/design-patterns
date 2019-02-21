@@ -1,4 +1,4 @@
-package com.ocean.simpleFactory;
+package com.ocean.simpleFactory.instance;
 
 public class OperationDev extends Operation {
     /**
