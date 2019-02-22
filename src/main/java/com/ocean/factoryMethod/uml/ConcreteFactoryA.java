@@ -12,6 +12,6 @@ public class ConcreteFactoryA extends Factory {
      */
     @Override
     public Product create() {
-        return null;
+        return new ConcreteProductA();
     }
 }
