@@ -1,6 +1,6 @@
 package com.ocean.prototype;
 /**
- * @description 原型模式 用于克隆
+ * @description 原型模式 用于克隆 是指从一个对象再创建另外一个可定制的对象，而且不许知道任何创建的细节
  * @author OuShen<ous@pvc123.com>
  * @date 2019-02-22
  */
