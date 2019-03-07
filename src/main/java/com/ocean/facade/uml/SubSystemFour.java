@@ -8,7 +8,7 @@ public class SubSystemFour {
     /**
      *
      */
-    public void methodTwo(){
-        System.out.println("methodTwo");
+    public void methodFour(){
+        System.out.println("methodFour");
     }
 }
