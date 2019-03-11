@@ -1,6 +1,7 @@
 package com.ocean.observer.uml;
 
 public class ObserverMain {
+
     public static void main(String[] args) {
         ConcreteSubject subject = new ConcreteSubject();
         subject.setState("init");

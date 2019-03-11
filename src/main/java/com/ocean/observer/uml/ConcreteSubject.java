@@ -15,4 +15,16 @@ public class ConcreteSubject extends Subject {
     public void setState(String state) {
         this.state = state;
     }
+
+
+    static {
+        System.out.println("subject static block");
+    }
+    {
+        System.out.println("subject unstatic block");
+    }
+
+    public ConcreteSubject() {
+        System.out.println("subject construct");
+    }
 }
